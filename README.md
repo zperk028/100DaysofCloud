@@ -2,25 +2,25 @@
   <img src="banner.png">
 </p>
 
-## The Challenge
-1. Read about the challenge and register at [#100DaysOfCloud.com](https://100DaysOfCloud.com)
-2. Join the [Discord Channel](https://discord.gg/c6Db8nY)
-3. Copy the [100DaysOfCloud/100DaysOfCloud Journey Template](https://github.com/100DaysOfCloud/100DaysOfCloud/generate)
-4. Use the [Micro](Templates/000-DAY-ARTICLE-MICRO-TEMPLATE.md), [Short](Templates/001-DAY-ARTICLE-SHORT-TEMPLATE.md) or [Long](Templates/002-DAY-ARTICLE-LONG-TEMPLATE.md) Day Journey Template and document your day-to-day progress.
-5. Update your main README to link back to your Day Journey article
-4. If you need ideas go to [#100DaysOfCloudIdeas](https://github.com/100DaysOfCloud/100DaysOfCloudIdeas)
-
 ## zPerk's Cloud Journey
 
 Howdy! I'm Zach. I'm an IT/networking/cloud novice.
 
-I started the 100DaysOfCloud challenge to give myself a framework for continued learning and professional development, and access to a social and support network of others doing the same. 
+I started the 100DaysOfCloud challenge to give myself a framework for continued learning and professional development, and access to a social support network of others doing the same. 
 
 By the end of this journey, my goal is to be either Azure Admin Associate + Azure Security Engineer Associate certified, or Azure Admin Associate + AWS Practioner certified. 
 
 You can follow me on Twitter [@zperk](https://twitter.com/zperk)
 
 And you can network with me [on LinkedIn](https://www.linkedin.com/in/zperkins/).
+
+## Want to join me in The Challenge?
+1. Read about the challenge and register at [#100DaysOfCloud.com](https://100DaysOfCloud.com)
+2. Join the [Discord Channel](https://discord.gg/c6Db8nY)
+3. Copy the [100DaysOfCloud/100DaysOfCloud Journey Template](https://github.com/100DaysOfCloud/100DaysOfCloud/generate)
+4. Use the [Micro](Templates/000-DAY-ARTICLE-MICRO-TEMPLATE.md), [Short](Templates/001-DAY-ARTICLE-SHORT-TEMPLATE.md) or [Long](Templates/002-DAY-ARTICLE-LONG-TEMPLATE.md) Day Journey Template and document your day-to-day progress.
+5. Update your main README to link back to your Day Journey article
+4. If you need ideas go to [#100DaysOfCloudIdeas](https://github.com/100DaysOfCloud/100DaysOfCloudIdeas)
 
 ## Stepping out the door
 
@@ -151,3 +151,8 @@ And you can network with me [on LinkedIn](https://www.linkedin.com/in/zperkins/)
 - [ ] ☁️ 98 > [](Journey/098/Readme.md)
 - [ ] ☁️ 99 > [](Journey/099/Readme.md)
 - [ ] ☁️ 100 > [](Journey/100/Readme.md)
+
+## More About Me
+I'm a mid-30s career-changer. After 12+ years in an old media career in creative + business development exec, project manager, researcher, writer and sales adjacent roles, I lost the spark for that particularly stale medium. The coronavirus pandemic accelarated my career change plans. In the span of a week, I was part of a mass lay off at work and a mass state activation of reserve military personnel. I am currently still on active duty in my role for COVID response, but I am commited to using my free time as wisely as possible to prepare for a new "future-proof" career in cloud security. 
+
+Cybersecurity is a huge inerest of mine, but I am very aware that one does not simply walk into a cybersecurity career (despite what Bootcamp Inc. would try to sell you). So my intent is to start with network fundamentals, but with a hyper-contemporary twist of using cloud basics as entry point to the learning path.
