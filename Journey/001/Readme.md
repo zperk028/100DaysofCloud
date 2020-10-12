@@ -1,52 +1,28 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+**Day Zero or Day One (?)**
+![Azure Fundamentals Cert](https://images.youracclaim.com/size/340x340/images/6a254dad-77e5-4e71-8049-94e5c7a15981/azure-fundamentals-600x600.png)
 
-# New post title here
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+"Day One" of my #100DaysofCloud is not really my first day. 
 
-## Prerequisite
+Granted, I am a complete noob when it comes to cloud and networks in general, so in September 2020 I decided to turbocharge my learning by scheduling my AZ-900 Microsoft Azure Fundamentals exam. 
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+For seven days, I devoured free videos from [Tim Warner](https://twitter.com/TechTrainerTim), spent too much free time on [Microsoft Learn](https://docs.microsoft.com/en-us/users/zacharyperkins-2691/achievements), practiced hands on with Azure Portal and [Whizlabs Practice Exams](https://twitter.com/Whizlabs). And I passed! 
 
-## Use Case
+On September 29th, 2020 I became Microsoft Certified in Azure Fundamentals! Yet I somehow feel like I know nothing at all, and feel completely underqualified for cloud career opportunities. 
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
-## Cloud Research
+## So What's Next?
+So naturally, I scheduled an AZ-104 exam. Nothing like a loaded gun to the head to motivate you. 
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+I now have roughly 8 weeks to prepare for the Microsoft Azure Admin Associate exam. 
 
-## Try yourself
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+## But that's Not #100DaysofCloud
+You're right! That's only about half the Cloud Journey we're undertaking in this challenge. 
 
-### Step 1 — Summary of Step
+If/when I clear AZ-104, my next goal will either be AZ-500, Microsoft's Azure Security Engineer exam, or if I'm feeling burnt out on Azure, the introductory AWS Practioner certification exam. Or perhaps both! 
 
-![Screenshot](https://via.placeholder.com/500x300)
+Wish me luck.
 
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
