@@ -10,20 +10,17 @@
 5. Update your main README to link back to your Day Journey article
 4. If you need ideas go to [#100DaysOfCloudIdeas](https://github.com/100DaysOfCloud/100DaysOfCloudIdeas)
 
-## How to use this template:
-Fill in your details where you see this icon ✍️
-We have provided a sample Day Journey entry staring at 0. You can delete this example.
+## zPerk's Cloud Journey
 
-## [✍️ Your Name]'s Cloud Journey
+Howdy! I'm Zach. I'm an IT/networking/cloud novice.
 
-[✍️ Introduce yourself]
+I started the 100DaysOfCloud challenge to give myself a framework for continued learning and professional development, and access to a social and support network of others doing the same. 
 
-[✍️ Tell us why you started this challenge]
+By the end of this journey, my goal is to be either Azure Admin Associate + Azure Security Engineer Associate certified, or Azure Admin Associate + AWS Practioner certified. 
 
-[✍️ Tell us where you want to be at the end of the challenge]
+You can follow me on Twitter [@zperk](https://twitter.com/zperk)
 
-- [✍️ Link to your Twitter](https://twitter.com/username)
-- [✍️ Link to your LinkedIn](https://www.linkedin.com/in/username)
+And you can network with me [on LinkedIn](https://www.linkedin.com/in/zperkins/).
 
 ## Stepping out the door
 
