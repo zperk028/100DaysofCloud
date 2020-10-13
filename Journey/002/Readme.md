@@ -82,9 +82,13 @@ Aside from the quizes built into the Microsoft Docs learning paths, the best way
 When it came time to sit for AZ-900, my suspicions were confirmed. Whizlabs was a far superior simulation of the real thing. So for AZ-104 prep, I will be using Whizlabs exclusively:
 
 1. [Whizlabs AZ-104 Practice Tests](https://www.whizlabs.com/learn/course/microsoft-azure-az-104/)
-  Length: n/a
-  Cost: Typicall $29.95, but they often run sales. I snagged mine for $19.95. It's well worth it.
-  About: I only have access to five unique practice tests, so I have to use them at strategic points in my preparation. Yes, you can re-attempt exams, but in my opinion that re-   taking an exam you've already attempted and reviewed doesn't provide my with a clean assesment of my readiness for the real thing. 
+Length: n/a
+Cost: Typicall $29.95, but they often run sales. I snagged mine for $19.95. It's well worth it.
+About: I only have access to five unique practice tests, so I have to use them at strategic points in my preparation. Yes, you can re-attempt exams, but in my opinion that re-   taking an exam you've already attempted and reviewed doesn't provide my with a clean assesment of my readiness for the real thing. 
+
+##### Total Cost: ~$20
+##### Total Length: n/a 
+ 
  
  
 ## Scheduling It Out
