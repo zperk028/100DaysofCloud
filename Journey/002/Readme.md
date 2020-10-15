@@ -30,22 +30,27 @@ Over the next 50+ days, I will prepare for this exam using the following types o
 The backbone of my preparation for AZ-104 during #100DaysofCloud will be using structured and largely paid course materials:
 
 #### 1. [Udemy (Scott Duffy) - AZ-104 Microsoft Azure Administrator Exam Certification 2020](https://www.udemy.com/course/70533-azure/) 
-Length: About 13 hours
-Cost: Udemy often has deals running. I snagged this course for about $12.99
-About: As the "concise" (hah!) broad overview of the AZ-104 exam materials, this will be the entry point into my exam prep.
+* Length: About 13 hours
+* Cost: Udemy often has deals running. I snagged this course for about $12.99
+* About: As the "concise" (hah!) broad overview of the AZ-104 exam materials, this will be the entry point into my exam prep.
   
 #### 2. [Pluralsight - Microsoft Azure Administrator (AZ-104) Path](https://app.pluralsight.com/paths/certificate/microsoft-azure-administrator-az-104)
-Length: Currently 18 hours at the time of this readme. It is currently under development with the majority of its planned videos not yet released. For comparison, the complete   Pluralsight AZ-103 (the earlier version of 104) path was about 45 hours.
-Cost: Pluralsight uses an overall subscription model, and you can't purchase outright a specific course or video. The standard plan is $29/month. But here's where the asteriks   in the "Paid* Courses" title comes in. I haven't paid for Pluralsight's AZ-104 path. I have a free Pluralsight Limited access account that allows me to work all of their Azure   related paths at no cost, and you can too. [Read more about how to gain access to Pluralsight's Azure content for free in this article on Medium.](https://medium.com/itmagination/pluralsight-and-azure-a-great-opportunity-to-accelerate-your-path-to-azure-expert-for-free-42c04e784948)
-About: While currently under construction and spotty on the overall content of the AZ-104 exam, the specific topics they have released videos for will allow for a deeper dive   than Scott Duffy's Udemy overview. Bonus: a few of the videos are from none other than my "Cloud Uncle", the patron saint of Azure exams, Tim Warner. 
+* Length: Currently 18 hours at the time of this readme. It is currently under development with the majority of its planned videos not yet released. For comparison, the complete   Pluralsight AZ-103 (the earlier version of 104) path was about 45 hours.
+* Cost: Pluralsight uses an overall subscription model, and you can't purchase outright a specific course or video. The standard plan is $29/month. But here's where the asteriks   in the "Paid* Courses" title comes in. I haven't paid for Pluralsight's AZ-104 path. ~~I have a free Pluralsight Limited access account that allows me to work all of their Azure related paths at no cost, and you can too.~~ [Read more about how to gain access to Pluralsight's Azure content for free in this article on Medium.](https://medium.com/itmagination/pluralsight-and-azure-a-great-opportunity-to-accelerate-your-path-to-azure-expert-for-free-42c04e784948)
+* About: While currently under construction and spotty on the overall content of the AZ-104 exam, the specific topics they have released videos for will allow for a deeper dive   than Scott Duffy's Udemy overview. Bonus: a few of the videos are from none other than my "Cloud Uncle", the patron saint of Azure exams, Tim Warner. 
+* **UPDATE: I was wrong about getting free access to the developing AZ-104 path on Pluralsight. I have free access to a smattering of Azure related courses, but none of them are part of the 104 path, sadly. I may use this resource for learning Azure in general, but not as a core component for preparing for my exam.
 
 #### 3. [CloudSkills.io - Azure Administrator (AZ-104) Exam Prep Course](https://portal.cloudskills.io/az-104)
-Length: Unknown. The page before the paywall doesn't tell you a whole lot.
-Cost: $7 (but how much content am I paying for?)
-About: I'm unsure about this one. Pro: it's only $7. Con: I've already paid for a course that covers the full exam, and have access to more in-depth content on some sections.   Pro: It's co-authored by [the homie Tim Warner!](https://twitter.com/TechTrainerTim). I don't know what it is about the guy - his demeanor or teaching style, but he really       helped make things both fundamental and complex click for me during my AZ-900 prep. I'm considering this additional course content if/when I blow through the first two, or       decide that Scott Duffy isn't cutting it for me. To be determined.
+* Length: ~~Unknown. The page before the paywall doesn't tell you a whole lot.~~ **UPDATE:** ~15 hous
+* Cost: $7 ~~(but how much content am I paying for?)~~
+* About: I'm unsure about this one. I'm considering this additional course content if/when I blow through the first two, or decide that Scott Duffy isn't cutting it for me. To be determined.
+  * Pro: it's only $7. 
+  * Con: I've already paid for a course that covers the full exam, and have access to more in-depth content on some sections.   
+  * Pro: It's co-authored by [the homie Tim Warner!](https://twitter.com/TechTrainerTim). I don't know what it is about the guy - his demeanor or teaching style, but he really helped make things both fundamental and complex click for me during my AZ-900 prep. 
+* **UPDATE: I bought it. No regrets.
 
-##### Total Cost: ~$20
-##### Total Length: ~35 hours
+**Total Cost: ~~~$20~~ ~$27
+**Total Length: ~35 hours
 
 
 ### Free Microsoft Learning Paths
