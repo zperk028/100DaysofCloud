@@ -1,4 +1,3 @@
-**Add a cover photo like:**
 ![Someone stole my toys from the AZ sandbox](https://github.com/zperk028/100DaysofCloud/blob/main/Journey/003/azAD%20sandbox%20error.JPG)
 
 # Day 3 - Back on the 104 Horse, Slowly.
