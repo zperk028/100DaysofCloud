@@ -22,7 +22,5 @@ After learning that I in fact did not have access to Pluralsight's AZ-104 path, 
 ### Module 1: Create Azure users and groups in Azure Active Directory 
 
 1. I asked for more hands-on with PowerShell, and I got it. And rejected it. After immediately being turned off by the big blue screen and confused on my first failed attempt to create a new user in PowerShell, I tried it in bash. Still took a few tries, but with each attempt I corrected mistakes and eventually figured it out. Another point for Linux in my book. 
-
 2. Next, we're back working for Conteso Marketing Company and setting up their AD Premium P2 trial, this time through the Azure Portal. After adding the timeless "Chris Green" to our AD, I'd like to opt to delete him via PowerShell instead of the Portal as instructed, but don't have access during this exercise because I'm using the MS Learn sandbox which is not a "valid subscription". Alas, I delete and recover the user the easy way in the Portal. 
-
 3. Moving on through the rest of Module 1, AZ AD groups, managing external and guest accounts, and Azure AD B2B are covered. I finish the module, but am unable to do the two exercises there because the Sandbox is telling me I don't have access to AZ AD.... Better luck next time I suppose.
