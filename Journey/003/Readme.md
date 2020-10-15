@@ -1,11 +1,11 @@
 **Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+![Someone stole my toys from the AZ sandbox](https://github.com/zperk028/100DaysofCloud/blob/main/Journey/003/azAD%20sandbox%20error.JPG)
 
 # Day 3 - Back on the 104 Horse, Slowly.
 
 ## [Azure Identity Management and Governance (via CloudSkills.io AZ-104 Exam Prep Course)](https://portal.cloudskills.io/products/azure-administrator-az-104-exam-prep-course)
 
-*aka: Why I used to have to log in to my Microsoft 365 work account with totally different credentials than my actual work email back at "Corporation X" (because my Azure AD UPN was based on the overall corporate domain, not our division's unique email domain. Spoiler alert: having my AD UPN not match my work email was a really bad practice! Way to go "Corporation X" IT department).
+*aka: Why I used to have to log in to my Microsoft 365 work account with totally different credentials than my actual work email back at "Corporation X" (because my Azure AD UPN was based on the overall corporate domain, not our division's unique email domain. Spoiler alert: having my AD UPN not match my work email was a really bad practice! Way to go "Corporation X" IT department).*
 
 ### Part 1: Manage Azure AD Objects
 
@@ -17,7 +17,7 @@ After learning that I in fact did not have access to Pluralsight's AZ-104 path, 
 
 ## [Manage identities and governance in Azure (via Microsoft Learn)](https://docs.microsoft.com/en-us/learn/paths/az-104-manage-identities-governance/?source=learn)
  
-*aka: the slightly more active, hands on approach the to video sesh above.
+*aka: the slightly more active, hands on approach the to video sesh above.*
 
 ### Module 1: Create Azure users and groups in Azure Active Directory 
 
@@ -25,4 +25,4 @@ After learning that I in fact did not have access to Pluralsight's AZ-104 path, 
 
 2. Next, we're back working for Conteso Marketing Company and setting up their AD Premium P2 trial, this time through the Azure Portal. After adding the timeless "Chris Green" to our AD, I'd like to opt to delete him via PowerShell instead of the Portal as instructed, but don't have access during this exercise because I'm using the MS Learn sandbox which is not a "valid subscription". Alas, I delete and recover the user the easy way in the Portal. 
 
-Moving on through the rest of Module 1, AZ AD groups, managing external and guest accounts, and Azure AD B2B are covered. I finish the module, but am unable to do the two exercises there because the Sandbox is telling me I don't have access to AZ AD.... Better luck next time I suppose.
+3. Moving on through the rest of Module 1, AZ AD groups, managing external and guest accounts, and Azure AD B2B are covered. I finish the module, but am unable to do the two exercises there because the Sandbox is telling me I don't have access to AZ AD.... Better luck next time I suppose.
