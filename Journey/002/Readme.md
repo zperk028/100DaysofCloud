@@ -38,7 +38,7 @@ The backbone of my preparation for AZ-104 during #100DaysofCloud will be using s
 * Length: Currently 18 hours at the time of this readme. It is currently under development with the majority of its planned videos not yet released. For comparison, the complete   Pluralsight AZ-103 (the earlier version of 104) path was about 45 hours.
 * Cost: Pluralsight uses an overall subscription model, and you can't purchase outright a specific course or video. The standard plan is $29/month. But here's where the asteriks   in the "Paid* Courses" title comes in. I haven't paid for Pluralsight's AZ-104 path. ~~I have a free Pluralsight Limited access account that allows me to work all of their Azure related paths at no cost, and you can too.~~ [Read more about how to gain access to Pluralsight's Azure content for free in this article on Medium.](https://medium.com/itmagination/pluralsight-and-azure-a-great-opportunity-to-accelerate-your-path-to-azure-expert-for-free-42c04e784948)
 * About: While currently under construction and spotty on the overall content of the AZ-104 exam, the specific topics they have released videos for will allow for a deeper dive   than Scott Duffy's Udemy overview. Bonus: a few of the videos are from none other than my "Cloud Uncle", the patron saint of Azure exams, Tim Warner. 
-* **UPDATE: I was wrong about getting free access to the developing AZ-104 path on Pluralsight. I have free access to a smattering of Azure related courses, but none of them are part of the 104 path, sadly. I may use this resource for learning Azure in general, but not as a core component for preparing for my exam.
+* UPDATE: I was wrong about getting free access to the developing AZ-104 path on Pluralsight. I have free access to a smattering of Azure related courses, but none of them are part of the 104 path, sadly. I may use this resource for learning Azure in general, but not as a core component for preparing for my exam.
 
 #### 3. [CloudSkills.io - Azure Administrator (AZ-104) Exam Prep Course](https://portal.cloudskills.io/az-104)
 * Length: ~~Unknown. The page before the paywall doesn't tell you a whole lot.~~ **UPDATE:** ~15 hous
@@ -47,10 +47,10 @@ The backbone of my preparation for AZ-104 during #100DaysofCloud will be using s
   * Pro: it's only $7. 
   * Con: I've already paid for a course that covers the full exam, and have access to more in-depth content on some sections.   
   * Pro: It's co-authored by [the homie Tim Warner!](https://twitter.com/TechTrainerTim). I don't know what it is about the guy - his demeanor or teaching style, but he really helped make things both fundamental and complex click for me during my AZ-900 prep. 
-* **UPDATE: I bought it. No regrets.
+* UPDATE: I bought it. No regrets.
 
-**Total Cost: ~~~$20~~ ~$27
-**Total Length: ~35 hours
+#### Total Cost: ~~$20~~ ~$27
+#### Total Length: ~35 hours
 
 
 ### Free Microsoft Learning Paths
