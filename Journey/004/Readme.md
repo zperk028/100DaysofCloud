@@ -1,52 +1,32 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+![From MS Learn module](https://docs.microsoft.com/en-us/learn/modules/manage-users-and-groups-in-aad/media/2-azure-vs-windows-ad.png)
 
-# New post title here
+# Day 4 (19OCT20)
 
-## Introduction
+*Note: Due to work emergencies at the end of last week and family commitments over the weekend, I'm picking back up on Day 4 despite the 4 days between now and my Day 3 entry. My #100DaysofCloud entries will be tagged to the date that I do the work and I'll complete the 100 Days on my own schedule, not in 100 consecutive days.*
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+## [Manage identities and governance in Azure (via Microsoft Learn)](https://docs.microsoft.com/en-us/learn/paths/az-104-manage-identities-governance/?source=learn)
 
-## Prerequisite
+### Module 2: Manage users and groups in Azure Active Directory
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+Picking up with Module 2 of this MS Learn path.
 
-## Use Case
+- Azure AD is not simply a cloud version of Windows Server AD, or a replacement for it on-prem. 
+- Using Azure AD exclusively (for example in a small company) is an option if they're primarily using cloud based SaaS.
+- Question For Myself/Project Idea: Can I build a home lab running Windows Server AD, and expand it out into a hybrid cloud with my free Azure account? 
+- Digging into Azure Resource roles via PowerShell, these are structured as JSON files for RBAC (and holy crap, I can actually read these with my limited exposure to JavaScript over the last few weeks!) 
+- In these role definitions, `NotActions` are subtractions from what has been granted by the properties of `Actions`. In these role properties, `{*}` short-hands for "all", then subtracting from that in the `NotActions` (or `NotDataActions`) property. 
+- `Actions` vs `DataActions` are Azure resource management (think admin) control vs data operations (think capital-D Data. eg: read a DB, write a storage blob to a container, etc).
+- Actually it's more than just capital-D Data operations, it includes compute too, for example: `Microsoft.Compute/virtualMachines/login/action` as a `DataActions` property allows the role to to log in to a VM as a regular user.
+- Creating custom roles requires Azure AD Premium P1 or P2.
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+## [Azure Identity Management and Governance (via CloudSkills.io AZ-104 Exam Prep Course)](https://portal.cloudskills.io/products/azure-administrator-az-104-exam-prep-course)
 
-## Cloud Research
+![From CloudSkills.io AZ-104 course](https://github.com/zperk028/100DaysofCloud/blob/main/Journey/004/rbac.JPG) 
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### [Manage Role-Based Access Control (RBAC)](https://portal.cloudskills.io/products/azure-administrator-az-104-exam-prep-course/categories/2692676/posts/8980102
 
-## Try yourself
+- I inverted my approach from last time, which was to watch a course video followed by a closely adjacent MS Learn path module. Doing the module first and then watching the video seems more effective. 
+- RBAC scope: Management Group > Subscription > Resource Group > Resource.  The closer to the resource, the stricter (more specific?) the permission options.
+- RBAC determines if a user has access to a resource via the token assigned to a user for Azure Resource Manager. 
+- Whether the action is done in the Portal GUI or in PowerShell/CLI, this involves a REST API call to ARM with that token attached. Order of operations is: ARM retrieves role assignments and deny assignments, checks against assignments, if not denied then checks against deny assignments. 
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
