@@ -29,4 +29,6 @@ Picking up with Module 2 of this MS Learn path.
 - RBAC scope: Management Group > Subscription > Resource Group > Resource.  The closer to the resource, the stricter (more specific?) the permission options.
 - RBAC determines if a user has access to a resource via the token assigned to a user for Azure Resource Manager. 
 - Whether the action is done in the Portal GUI or in PowerShell/CLI, this involves a REST API call to ARM with that token attached. Order of operations is: ARM retrieves role assignments and deny assignments, checks against assignments, if not denied then checks against deny assignments. 
-
+- Custom roles are currently creating in PowerShell, graphical is currently a Portal feature in preview.
+- PowerShell might not be *as* different from bash as I thought it was... (`ls`, `cat`, etc)
+- `Get-azSubscriptionID` pulls your subscription and tenant IDs.
