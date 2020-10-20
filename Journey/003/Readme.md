@@ -6,7 +6,7 @@
 
 *aka: Why I used to have to log in to my Microsoft 365 work account with totally different credentials than my actual work email back at "Corporation X" (because my Azure AD UPN was based on the overall corporate domain, not our division's unique email domain. Spoiler alert: having my AD UPN not match my work email was a really bad practice! Way to go "Corporation X" IT department).*
 
-### Part 1: Manage Azure AD Objects
+### [Part 1: Manage Azure AD Objects](https://portal.cloudskills.io/products/azure-administrator-az-104-exam-prep-course/categories/2692676/posts/8980096)
 
 After learning that I in fact did not have access to Pluralsight's AZ-104 path, I threw my $7 at CloudSkill's AZ-104 course so I could listen to the dulcet sounds of Tim Warner's voice while learning about Azure Active Directory, managing identities and governance. An hour well spent. It was a good refresher on tenants vs subscriptions vs identities. I learned a few new things about Azure, but most importantly about myself:
 
@@ -18,7 +18,7 @@ After learning that I in fact did not have access to Pluralsight's AZ-104 path, 
  
 *aka: the slightly more active, hands on approach the to video sesh above.*
 
-### Module 1: Create Azure users and groups in Azure Active Directory 
+### [Module 1: Create Azure users and groups in Azure Active Directory](https://docs.microsoft.com/en-us/learn/modules/create-users-and-groups-in-azure-active-directory/)
 
 1. I asked for more hands-on with PowerShell, and I got it. And rejected it. After immediately being turned off by the big blue screen and confused on my first failed attempt to create a new user in PowerShell, I tried it in bash. Still took a few tries, but with each attempt I corrected mistakes and eventually figured it out. Another point for Linux in my book. 
 2. Next, we're back working for Conteso Marketing Company and setting up their AD Premium P2 trial, this time through the Azure Portal. After adding the timeless "Chris Green" to our AD, I'd like to opt to delete him via PowerShell instead of the Portal as instructed, but don't have access during this exercise because I'm using the MS Learn sandbox which is not a "valid subscription". Alas, I delete and recover the user the easy way in the Portal. 
