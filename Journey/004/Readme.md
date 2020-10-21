@@ -23,7 +23,7 @@ Picking up with Module 2 of this MS Learn path.
 
 ![From CloudSkills.io AZ-104 course](https://github.com/zperk028/100DaysofCloud/blob/main/Journey/004/rbac.JPG) 
 
-### [Manage Role-Based Access Control, RBAC](https://portal.cloudskills.io/products/azure-administrator-az-104-exam-prep-course/categories/2692676/posts/8980102)
+### [Part 2: Manage Role-Based Access Control, RBAC](https://portal.cloudskills.io/products/azure-administrator-az-104-exam-prep-course/categories/2692676/posts/8980102)
 
 - I inverted my approach from last time, which was to watch a course video followed by a closely adjacent MS Learn path module. Doing the module first and then watching the video seems more effective. 
 - RBAC scope: Management Group > Subscription > Resource Group > Resource.  The closer to the resource, the stricter (more specific?) the permission options.
