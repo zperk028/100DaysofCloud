@@ -1,52 +1,17 @@
 **Add a cover photo like:**
 ![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# Day 5 (20OCT20)
 
-## Introduction
+## [Azure Identity Management and Governance (via CloudSkills.io AZ-104 Exam Prep Course)](https://portal.cloudskills.io/products/azure-administrator-az-104-exam-prep-course)
 
 ✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
 
-## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+### [Part 3: Manage Subscriptions and Governance](https://portal.cloudskills.io/products/azure-administrator-az-104-exam-prep-course/categories/2692676/posts/8980104)
 
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
-
-## Cloud Research
-
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
-
-## Try yourself
-
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+- Policies and RBAC: Inherit from the scope above (eg: cascade down from subscription to resource groups, etc)
+- Taxinomic tags: Do not! They are extremely useful for billing specific resources for specific clients within a subscription, but have to be added and configured manually. 
+- Cost Management + Billing blades is used to create a budget or forecast your spend.
+- Azure Advisor in the Cost Management + Billing blade can give basic recommendations. If more detailed consumption details and optomization advice (beyond just a cost analysis chart, possibly with "machine learning"), are needed, then the Azure element you're looking for is Cloudyn. 
+- Moving Resources and Dependent Resources to New Subscriptions: To move a VM and it's Network Interface Cards to a new subscription you must move all dependent resouces as well. Focus studying on options for moving VMs and NICs within a Vnet, between Vnets, and between Subscriptions. 
