@@ -1,11 +1,16 @@
 **Add a cover photo like:**
 ![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# Day Six (25OCT20)
 
-## Introduction
+## Setting Up PowerShell for AZ 
+### [Via Section 3 of Scott Duffy's AZ-104 Course](https://www.udemy.com/course/70533-azure/)
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+I've made it no secret that I prefer CLI. The syntax just makes more sense to me. But I'm aware that AZ-104 might contain more PowerShell focused exam questions than CLI. In order to force more PowerShell practice, I'm taking my PS exposure beyond the Azure CloudShell (in browser via the Azure Portal) and onto my desktop, with the intent of then trying hands on to replicate various AZ Portal based lessons in PS.
+- Step 1: Is my Window's PS up to date? First thing I had to do was even learn the PS command to figure out my version (`PSversiontable`). Looks like I'm still running 5.1.
+- Step 2: Download the latest PS .msi (which at the time of this post was 7.1)
+- Step 3: Running 7.1 in admin mode, install the Azure module via `Install-Module -Name Az -AllowClobber` 
+- Step 4: Connect Azure PS to my Azure account, using `Connect-AzAccount`. This prints a URL and a one-time use code. Going to that URL in browser and inputting the code allows me to connect Azure PS to my Azure account. Good to go! Now I have no excuses for not using or practicing PS more actively in my Azure studies.
 
 ## Prerequisite
 
