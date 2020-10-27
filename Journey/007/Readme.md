@@ -1,13 +1,16 @@
 **Add a cover photo like:**
 ![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# Day Seven (27OCT20)
 
-## Introduction
+## Azure Subscriptions and Governance 
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Continue on a linear progression through Tim Duffy's AZ-104 Udemy Course.
 
-## Prerequisite
+### Section 5: Manage Subscriptions and Governance
+
+- Subscriptions vs tenants. Resource groups. Navigating the subscription dashboard. All pretty remedial stuff from AZ-900 at the top of this section.
+- Assign Azure Policies via PowerShell. Oh boy! Here we go... Scotty Duffy's example here is to find a policy to audit missing tags for resources, with the following PS command line: `Get-AzPolicyDefinition | Where-Object { $_.Properties.DisplayName -eq "Audit missing tags on resources" }` Doesn't work on my PowerShell... or in Cloud Shell, so it's not a PS configuration issue on my desktop. `Get-AzPolicyDefinition` alone works fine, and spits back a million results. 
 
 ✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
 
