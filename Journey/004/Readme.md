@@ -1,6 +1,6 @@
 ![From MS Learn module](https://docs.microsoft.com/en-us/learn/modules/manage-users-and-groups-in-aad/media/2-azure-vs-windows-ad.png)
 
-# Day 4 (19OCT20)
+# Day 4 
 
 *Note: Due to work emergencies at the end of last week and family commitments over the weekend, I'm picking back up on Day 4 despite the 4 days between now and my Day 3 entry. My #100DaysofCloud entries will be tagged to the date that I do the work and I'll complete the 100 Days on my own schedule, not in 100 consecutive days.*
 
@@ -32,3 +32,6 @@ Picking up with Module 2 of this MS Learn path.
 - Custom roles are currently creating in PowerShell, graphical is currently a Portal feature in preview.
 - PowerShell might not be *as* different from bash as I thought it was... (`ls`, `cat`, etc)
 - `Get-azSubscriptionID` pulls your subscription and tenant IDs.
+
+
+(19OCT20)
