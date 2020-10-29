@@ -1,4 +1,4 @@
-# Day 5 (20OCT20)
+# Day 5 
 
 ## [Azure Identity Management and Governance (via CloudSkills.io AZ-104 Exam Prep Course)](https://portal.cloudskills.io/products/azure-administrator-az-104-exam-prep-course)
 
@@ -10,3 +10,5 @@
 - Cost Management + Billing blades is used to create a budget or forecast your spend.
 - Azure Advisor in the Cost Management + Billing blade can give basic recommendations. If more detailed consumption details and optomization advice (beyond just a cost analysis chart, possibly with "machine learning"), are needed, then the Azure element you're looking for is Cloudyn. 
 - Moving Resources and Dependent Resources to New Subscriptions: To move a VM and it's Network Interface Cards to a new subscription you must move all dependent resouces as well. Focus studying on options for moving VMs and NICs within a Vnet, between Vnets, and between Subscriptions. 
+
+(20OCT20)
