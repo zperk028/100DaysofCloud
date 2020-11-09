@@ -55,3 +55,4 @@ I'm going to be honest, I'm not 100% sure what this is does yet.
 
 4. And now I've hit a hiccup. I'm supposed to configuring the virtual machine deployed by the az-104-11-gr0 template, but there's nothing in the resource group. I checked my powershell commands and tried a few variants. No joy. I've committed an issue to the lab on github, and will have to wait and see. 
 
+![dafuq](https://github.com/zperk028/100DaysofCloud/blob/main/Journey/009/azrgdeploydafuq.JPG)
