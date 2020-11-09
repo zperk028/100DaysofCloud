@@ -32,7 +32,7 @@ And you can network with me [on LinkedIn](https://www.linkedin.com/in/zperkins/)
 - [ ] ☁️ 6 > [Day Six](Journey/006/Readme.md)
 - [ ] ☁️ 7 > [Day Seven](Journey/007/Readme.md)
 - [ ] ☁️ 8 > [Day Eight](Journey/008/Readme.md)
-- [ ] ☁️ 9 > [](Journey/009/Readme.md)
+- [ ] ☁️ 9 > [Day Nine](Journey/009/Readme.md)
 - [ ] ☁️ 10 > [](Journey/010/Readme.md)
 
 ## Walking down the road
