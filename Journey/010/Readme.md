@@ -32,7 +32,8 @@ Alright! We're gonna create a Linux VM, SSH into it, and then poke around to ins
 - For the exercise, we use the bash command `ssh-keygen -t rsa -b 4096`, the "minimum command necessary" to generate an SSH key pair in Azure. This command line generates a SSH protocol 2 (SSH-2) RSA public-private key pair with a length of 4096. This then creates two files, `id_rsa` and `id_rsa.pub` which we place in the default `~/.ssh` directory, and associate a password to the key pair, which then encryptes the key itself with 128-bit AES. This then spews out a SHA256 'key fingerprint' and some pretty rad randomart for the key. 
 
 ![SSH keygen in sandbox](https://github.com/zperk028/100DaysofCloud/blob/main/Journey/010/ssh.JPG)
-Since this is a sandbox exercise, I'm concerned about providing a screencap here.
+
+*Since this is a sandbox exercise in a temporary environment that exists outside of my actual Azure directory, I'm less than concerned about providing a screencap here.*
 
 - With the SSH key pair generated, we then have to configure the VM with it. This can be done during the VM's creation or after. 
 - We then have to `cat` (we're in bash, despite my declaration to learn more PS, but that's what the module calls for) the `.pub` file of the key pair and copy of the output value. This output is the value of the public key in the key pair, and it's what we'll use to set up the VM for SSH. 
