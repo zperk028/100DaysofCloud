@@ -1,6 +1,6 @@
-![Lab 11 redux](https://github.com/zperk028/100DaysofCloud/blob/main/Journey/011/lab11d.JPG)
-
 # Day Eleven (aka Day 9 revisted) 
+
+![Lab 11 redux](https://github.com/zperk028/100DaysofCloud/blob/main/Journey/011/lab11d.JPG)
 
 ## Introduction
 
