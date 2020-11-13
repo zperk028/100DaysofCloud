@@ -21,7 +21,12 @@ After repeating Tasks 1 to 3, succesfully this time, we pick back up at Task 4.
 
 ![Still alive](https://github.com/zperk028/100DaysofCloud/blob/main/Journey/011/lab11a.JPG)
 
-6. 
+6. Now it's time to review Azure Monitor functionality and really get into it. In the Portal we search for the Monitor feature, and from there click into Metrics, prompting us to select a scope while be presented with a list of all of our resource groups. We expand the az-104-11-rg0 group where the VM and it's associated resources (NIC, VHD, etc) are housed, and click to add a checkmark specifically to the VM resource itself. Clicking 'apply', this takes us to the same chart creation screen for Metrics. Like before, we configure Metric: Precentage CPU and Aggregtaion: Avg, but this time we also click New Alert Rule at the top right above the chart. We're given an incomplete condition in the alert window, based on the CPU precentage monitor graph we were previously working with. Clicking through on that condition, we finish the configuration by entering a Threshold Value (precentage) and changing the Aggregation granularity (time Period) and Frequency of evaluation. After clicking done, back in the Create Alert rule window we click Select Action Group and Create Action Group. After affiliating it with the logging RG (rg1) we set up SMS/voice/email and configure to email our admin address. Back on the Create alert rule blade we scroll down to Alert rule details and configure our alert with some defaults to indicate the CPU precentage has gone above the threshold of 2%. Going back to the az104-11-vm0 VM blade, we click 'Connect' and RDP, and download an RDP file. 
+
+![Remote inside the VM](https://github.com/zperk028/100DaysofCloud/blob/main/Journey/011/lab11c.JPG)
+
+From the RDP into the VM, the lab calls for me to enter the following into the VM's command prompt to spike the CPU use and trigger an AZ alert: `for /l %a in (0,0,1) do echo a`.  From the VM's task manager I can see the CPU cookin.  
+
 
 
 
