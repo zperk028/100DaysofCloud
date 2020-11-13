@@ -17,7 +17,11 @@ After repeating Tasks 1 to 3, succesfully this time, we pick back up at Task 4.
 ![It Lives!](https://github.com/zperk028/100DaysofCloud/blob/main/Journey/011/lab11.JPG) 
 
 4. Reviewing the default monitoring setting of our *successfully deployed* VM (which, by the way, is a Windows Server 19 Datacenter). In the VM blade we access the Monitoring section and go into Metrics. From there we create a chart that displays the CPU usage (Metric: Precentage CPU, Aggregation: Avg). 
-5. For our fifth task in the lab, we will next configure the VM's diagnostic settings. Still in the Monitoring section of the VM's blade, we click into Diagnostic Settings and enable guest-level monitoring. Once deployed, we swtich to the Performance Counters tab and ensure that the CPU, Memory, Disk and Network of the machine are being sampled.  
+5. For our fifth task in the lab, we will next configure the VM's diagnostic settings. Still in the Monitoring section of the VM's blade, we click into Diagnostic Settings and enable guest-level monitoring. Once deployed, we swtich to the Performance Counters tab and ensure that the CPU, Memory, Disk and Network of the machine are being sampled. Next to the Logs tab of Diagnostic Settings, where we confirm that Application: Critical, Error, Warning, Security: Audit Failure, System: Critical, Error, Warning are all configured for logging. We then go into the Logs blade of the VM under the Monitoring section and enable the feature. Over to the Metrics blade in the Monitoring section, we are now given the 'Guest (Classic)' option in the Metrics Namespace drop down menu, which gives a new set of options for trackable Metrics. Configuring it to show memory in available bytes (Metric: \Memory\Available Bytes, Aggregation: Max), we're presented with new pretty chart to review our VM as proof of life.
+
+![Still alive](https://github.com/zperk028/100DaysofCloud/blob/main/Journey/011/lab11a.JPG)
+
+6. 
 
 
 
