@@ -1,5 +1,4 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+![Lab 11 redux](https://github.com/zperk028/100DaysofCloud/blob/main/Journey/011/lab11d.JPG)
 
 # Day Eleven (aka Day 9 revisted) 
 
@@ -17,6 +16,7 @@ After repeating Tasks 1 to 3, succesfully this time, we pick back up at Task 4.
 ![It Lives!](https://github.com/zperk028/100DaysofCloud/blob/main/Journey/011/lab11.JPG) 
 
 4. Reviewing the default monitoring setting of our *successfully deployed* VM (which, by the way, is a Windows Server 19 Datacenter). In the VM blade we access the Monitoring section and go into Metrics. From there we create a chart that displays the CPU usage (Metric: Precentage CPU, Aggregation: Avg). 
+
 5. For our fifth task in the lab, we will next configure the VM's diagnostic settings. Still in the Monitoring section of the VM's blade, we click into Diagnostic Settings and enable guest-level monitoring. Once deployed, we swtich to the Performance Counters tab and ensure that the CPU, Memory, Disk and Network of the machine are being sampled. Next to the Logs tab of Diagnostic Settings, where we confirm that Application: Critical, Error, Warning, Security: Audit Failure, System: Critical, Error, Warning are all configured for logging. We then go into the Logs blade of the VM under the Monitoring section and enable the feature. Over to the Metrics blade in the Monitoring section, we are now given the 'Guest (Classic)' option in the Metrics Namespace drop down menu, which gives a new set of options for trackable Metrics. Configuring it to show memory in available bytes (Metric: \Memory\Available Bytes, Aggregation: Max), we're presented with new pretty chart to review our VM as proof of life.
 
 ![Still alive](https://github.com/zperk028/100DaysofCloud/blob/main/Journey/011/lab11a.JPG)
@@ -25,49 +25,21 @@ After repeating Tasks 1 to 3, succesfully this time, we pick back up at Task 4.
 
 ![Remote inside the VM](https://github.com/zperk028/100DaysofCloud/blob/main/Journey/011/lab11c.JPG)
 
-From the RDP into the VM, the lab calls for me to enter the following into the VM's command prompt to spike the CPU use and trigger an AZ alert: `for /l %a in (0,0,1) do echo a`.  From the VM's task manager I can see the CPU cookin.  
+From the RDP into the VM, the lab calls for me to enter the following into the VM's command prompt to spike the CPU use and trigger an AZ alert: `for /l %a in (0,0,1) do echo a`.  From the VM's task manager I can see the CPU cookin.  I close the command prompt after a few minutes, and notice that I only have one email alert (time stamped from before I ran the command prompt process, likely the CPU firing on start up of the VM) and leave the VM up over night.  In the morning, I finally have some email alerts, but I notice that the emails come in sporadically and have a big delay compared to the actual alert log in the Monitor blade. Good to know for the future that you can't rely on these email alerts for real-time monitoring. 
 
+7. On to the final task. Heading to Logs in the Monitor blade, and set the scope to the VM as an individual resource scope. The lab then provides us with the following query to run: 
 
+`// Virtual Machine available memory
+// Chart the VM's available memory over the last hour.
+InsightsMetrics
+| where TimeGenerated > ago(1h)
+| where Name == "AvailableMB"
+| project TimeGenerated, Name, Val
+| render timechart`
 
+![Memory available query](https://github.com/zperk028/100DaysofCloud/blob/main/Journey/011/lab11e.JPG)
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+This outputs a chart for us that displays memory available over time in the VM. The dips in memory available roughly match the spikes in CPU usage, as expected. 
 
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
-
-## Cloud Research
-
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
-
-## Try yourself
-
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+## Cleaning Up
+Alright! We did it! After a few false starts, we completed Lab 11, finally deployed a real live VM, and learned how not to be a bone head with ARM templates and JSON files on GitHub. Now it's time to clean up the lab resources so they don't cost me any more money. Using the PowerShell command `Get-AzResourceGroup -Name 'az104-11*' | Remove-AzResourceGroup -Force -AsJob` we initiate our clean up and delete the rg0 and rg1 resource groups.
