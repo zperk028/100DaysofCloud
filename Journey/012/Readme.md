@@ -1,11 +1,17 @@
-**Add a cover photo like:**
 ![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# Day 12
 
-## Introduction
+## Lab 8: [Managing Virtual Machines](https://github.com/MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator/blob/master/Instructions/Labs/LAB_08-Manage_Virtual_Machines.md) 
+This lab will focus not on deploying individual VMs, but VM scale sets for scalability and resilience. We have seven tasks to complete: 
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+1. Deploy zone-resilient Azure virtual machines by using the Azure portal and an Azure Resource Manager template
+2. Configure Azure virtual machines by using virtual machine extensions
+3. Scale compute and storage for Azure virtual machines
+4. Register the Microsoft.Insights and Microsoft.AlertsManagement resource providers
+5. Deploy zone-resilient Azure virtual machine scale sets by using the Azure portal
+6. Configure Azure virtual machine scale sets by using virtual machine extensions
+7. Scale compute and storage for Azure virtual machine scale sets (optional)
 
 ## Prerequisite
 
